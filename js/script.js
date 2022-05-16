@@ -15,16 +15,15 @@ if (navigator.serviceWorker) {
 }
 
 /**
- * This function converts the degrees from fahrenheit to celsius
+ * This function increases cookies
  */
-function convert() {
-  // input
-  const fahrenheit = parseInt(document.getElementById("fahrenheit").value)
-
-  // process
-  const celsius = ((fahrenheit - 32) * 5) / 9
-
+function updateClickCount() {
+  
+  if (localStorage.click) {
+      localStorage.click = Number(localStorage.click) +1;
+  }
+  else (localStorage.click = 1;)
   // output
-  document.getElementById("celsius").innerHTML =
-    "<p>The  temperature in celsius is: " + celsius.toFixed(2) + "°<p>"
+  document.getElementById("answer").innerHTML =
+    "Total hits : " + localStorage.click
 }

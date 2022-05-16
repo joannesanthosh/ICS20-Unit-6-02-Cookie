@@ -31,28 +31,17 @@
       </header>
       <main class="mdl-layout__content">
         <p></p>
-        <img src="./Choc_Chip_Cookie_Illustration_6b4700cf-876a-4488-9d7d-bd7be3856a54_large.webp" alt="Temperature" width="25%" height="25%" onload="cookieClicked()">
+        <img src="./Choc_Chip_Cookie_Illustration_6b4700cf-876a-4488-9d7d-bd7be3856a54_large.webp" alt="cookie" width="25%" height="25%" onload="updateClickCount()">
         <p></p>
-        <table>
-          <tr>
-            <th>
-              <!-- Numeric Textfield -->
-              <form action="#">
-                <p>number:</p>
-                <div class="mdl-textfield mdl-js-textfield">
-                  <input class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" id="number">
-                  <label class="mdl-textfield__label" for="number">number</label>
-                </div>
-              </form>
-              </button>
-              <br />
-              <p>
-                <div id="celsius"></div>
-              </p>
-            </th>
-          </tr>          
-        </table>
+          <!-- basic text -->
+          </form>
+          <br />
+          <p>
+          <div id="answer"></div>
+          </p>
       </main>
     </div>
   </body>
+    <body onload="updateClickCount()">
+    </body>
 </html>
