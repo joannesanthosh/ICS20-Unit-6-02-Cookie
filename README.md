@@ -1,7 +1,7 @@
-# ICS20-Unit6-01-PWA
+# ICS20-Unit-6-02-Cookie
 
-[![GitHub's Super Linter](https://github.com/joannesanthosh/ICS20-Unit6-01-PWA/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/joannesanthosh/ICS20-Unit6-01-PWA/actions)
+[![Mr Coxall's Super Linter](https://github.com/joannesanthosh/ICS20-Unit-6-02-Cookie/workflows/Mr%20Coxall's%20Super%20Linter/badge.svg)](https://github.com/joannesanthosh/ICS20-Unit-6-02-Cookie/actions)
 
-[![Run on Repl.it](https://repl.it/badge/github/joannesanthosh/ICS20-Unit6-01-PWA)](https://repl.it/github/joannesanthosh/ICS20-Unit6-01-PWA)
+[![Run on Repl.it](https://repl.it/badge/github/joannesanthosh/ICS20-Unit-6-02-Cookie)](https://repl.it/github/joannesanthosh/ICS20-Unit-6-02-Cookie)
 
-This site can be found at: [https://joannesanthosh.github.io/ICS20-Unit6-01-PWA](https://joannesanthosh.github.io/ICS20-Unit6-01-PWA)
+This site can be found at: [https://joannesanthosh.github.io/ICS20-Unit-6-02-Cookie](https://joannesanthosh.github.io/ICS20-Unit-6-02-Cookie)
