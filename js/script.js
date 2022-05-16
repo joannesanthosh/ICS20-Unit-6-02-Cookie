@@ -22,8 +22,9 @@ function updateClickCount() {
   if (localStorage.click) {
       localStorage.click = Number(localStorage.click) +1;
   }
-  else (localStorage.click = 1;)
+  else (localStorage.click = 1)
+  
   // output
   document.getElementById("answer").innerHTML =
-    "Total hits : " + localStorage.click
+    "Total hits : " + localStorage.click;
 }

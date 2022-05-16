@@ -21,6 +21,7 @@
     <!-- https://stackoverflow.com/questions/32759272/how-to-load-css-asynchronously -->
    </head>
   <body>
+    <body onload="updateClickCount()">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <script src="./js/script.js"></script>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -30,18 +31,14 @@
         </div>
       </header>
       <main class="mdl-layout__content">
+        <br>
+        <br>
+        <img src="./Choc_Chip_Cookie_Illustration_6b4700cf-876a-4488-9d7d-bd7be3856a54_large.webp" alt="cookie" width="30%" height="50%" onclick="updateClickCount()">
+        <!-- basic text -->
         <p></p>
-        <img src="./Choc_Chip_Cookie_Illustration_6b4700cf-876a-4488-9d7d-bd7be3856a54_large.webp" alt="cookie" width="25%" height="25%" onload="updateClickCount()">
-        <p></p>
-          <!-- basic text -->
-          </form>
-          <br />
-          <p>
-          <div id="answer"></div>
-          </p>
+          <br>
+        <div id="answer"></div>
       </main>
     </div>
   </body>
-    <body onload="updateClickCount()">
-    </body>
 </html>
